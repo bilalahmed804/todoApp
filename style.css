@@ -1,0 +1,34 @@
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.conatinor{
+   text-align: center;
+   margin-top: 20px;
+   
+}
+.conatinor h1{
+    margin-bottom: 20px;
+}
+.conatinor input, button{
+    padding: 10px;
+}
+ol{
+    list-style-type:lower-greek;
+}
+
+.mian01{
+    margin-left: 10%;
+   background-color: antiquewhite;
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+}
+.num01{
+    background-color:wheat;
+    border: 0;
+    outline: none;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
