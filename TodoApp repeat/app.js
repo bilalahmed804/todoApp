@@ -1,12 +1,12 @@
 function addButton (){
-  var input = document.getElementById('todoInput')
-
-  if(input.value){
-  var list = document.getElementById('listItem');
-  var listElement = document.createElement("li");
-  var addElement =document.createTextNode(input.value);
+    var input = document.getElementById('todoInput')
   
-  listElement.appendChild(addElement);
+    if(input.value){
+    var list = document.getElementById('listItem');
+    var listElement = document.createElement("li");
+    var addElement =document.createTextNode(input.value);
+    
+    listElement.appendChild(addElement);
 //****************delelte************* */
 
 var deleteBtn = document.createElement("button")
@@ -41,26 +41,25 @@ console.log(listElement);
 input.value =  " " ;
 }
 else{
-  alert("Enter Task")
+    alert("Enter Task")
 }
 
 }
 function deletetodo(){
-  
-  var list = document.getElementById('listItem');
+    
+    var list = document.getElementById('listItem');
 
-  list.remove();
+    list.remove();
 }
 
 function delTodo(a){
-  console.log(a.parentNode.remove());
+    console.log(a.parentNode.remove());
 }
 
 function editTodo(e){
-  var currentli = e.parentNode.firstChild.nodeValue;
-  var inputField = prompt("Enter updated value", currentli)
-  e.parentNode.firstChild.nodeValue = inputField
+    var currentli = e.parentNode.firstChild.nodeValue;
+    var inputField = prompt("Enter updated value", currentli)
+    e.parentNode.firstChild.nodeValue = inputField
 }
-
 
 
